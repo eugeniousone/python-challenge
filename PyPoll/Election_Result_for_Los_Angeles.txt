@@ -1,6 +1,6 @@
 2018 Election Results for Los Angeles
 -------------------------------------
-Total Votes: {total_votes}
+Total Votes: 3521001
 -------------------------------------
 Khan: 63.0% (2218231)
 Correy: 20.0% (704200)

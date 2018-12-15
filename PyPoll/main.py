@@ -35,7 +35,7 @@ output_path = "../PyPoll/Election_Result_for_Los_Angeles.txt"
 with open(output_path, "w") as txt_file:
     print("2018 Election Results for Los Angeles", file = txt_file)
     print("-------------------------------------", file = txt_file)
-    print("Total Votes: {total_votes}", file = txt_file)
+    print(f"Total Votes: {total_votes}", file = txt_file)
     print("-------------------------------------", file = txt_file)
     for candidate_name,vote_count in candidate_vote.items():
         print(candidate_name + ": " + str(round(vote_count / total_votes * 100, 4)) + "% (" + str(vote_count) + ")", file = txt_file)
